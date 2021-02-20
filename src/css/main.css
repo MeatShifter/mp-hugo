@@ -18,12 +18,12 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: #282c34;
-  color: white;
+  background-color: #361902;
+  color: rgb(214, 101, 26);
 }
 
 a {
-  color: pink;
+  color: rgb(245, 88, 27);
   text-decoration: none;
 }
 
