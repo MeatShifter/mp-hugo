@@ -1,4 +1,4 @@
-# Victor Hugo
+# Magic Puddle : Victor Hugo
 
 **A Hugo boilerplate for creating truly epic websites**
 
@@ -12,7 +12,7 @@ This project is released under the [MIT license](LICENSE). Please make sure you 
 
 ### :exclamation: Prerequisites
 
-You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed in order to use Victor Hugo.
+You need to have the latest/LTS [node](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm) versions installed to use Victor Hugo.
 
 Next step, clone this repository and run:
 
@@ -30,13 +30,13 @@ While developing your website, use:
 npm start
 ```
 
-or for developing your website with `hugo server --buildDrafts --buildFuture`, use:
+or for developing your website with `Hugo server --buildDrafts --buildFuture`, use:
 
 ```bash
 npm run preview
 ```
 
-Then visit http://localhost:3000/ _- or a new browser windows popped-up already -_ to preview your new website. Webpack Dev Server will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
+Then visit <http://localhost:3000/> _- or a new browser window popped-up already -_ to preview your new website. Webpack Dev Server will automatically reload the CSS or refresh the whole page when stylesheets or content changes.
 
 ### :package: Static build
 
@@ -57,7 +57,7 @@ See [package.json](package.json#L8) for all tasks.
 ## Structure
 
 ```
-|--site                // Everything in here will be built with hugo
+|--site                // Everything in here will be built with Hugo
 |  |--content          // Pages and collections - ask if you need extra pages
 |  |--data             // YAML data files with any data for use in examples
 |  |--layouts          // This is where all templates go
@@ -65,24 +65,24 @@ See [package.json](package.json#L8) for all tasks.
 |  |  |--index.html    // The index page
 |  |--static           // Files in here ends up in the public folder
 |--src                 // Files that will pass through the asset pipeline
-|  |--css              // Webpack will bundle imported css separately
-|  |--index.js         // index.js is the webpack entry for your css & js assets
+|  |--css              // Webpack will bundle imported CSS separately
+|  |--index.js         // index.js is the webpack entry for your CSS & js assets
 ```
 
 ## Basic Concepts
 
 You can read more about Hugo's template language in their documentation here:
 
-https://gohugo.io/templates/overview/
+<https://gohugo.io/templates/overview/>
 
 The most useful page there is the one about the available functions:
 
-https://gohugo.io/templates/functions/
+<https://gohugo.io/templates/functions/>
 
 For assets that are completely static and don't need to go through the asset pipeline,
 use the `site/static` folder. Images, font-files, etc, all go there.
 
-Files in the static folder end up in the web root. So a file called `site/static/favicon.ico`
+Files in the static folder end up in the webroot. So a file called `site/static/favicon.ico`
 will end up being available as `/favicon.ico` and so on...
 
 The `src/index.js` file is the entrypoint for webpack and will be built to `/dist/main.js`
@@ -113,4 +113,4 @@ You can also click this button:
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/victor-hugo)
 
-## Enjoy!! 😸
+## Enjoy!! 😸 or don't the choice is yours
