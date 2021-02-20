@@ -1,4 +1,4 @@
-# Magic Puddle : Victor Hugo
+# Magic Puddle: Victor Hugo Build
 
 **A Hugo boilerplate for creating truly epic websites**
 
